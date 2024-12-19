@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is that pokemon?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Who is that pokemon?</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <button id="search-button">Покажи покемона</button>
+        </section>
+        <section id="pokemon-info">
+            <h2 id="pokemon-title"></h2>
+            <img id="pokemon-image" src="" alt="" style="display:none;">
+            <table id="pokemon-stats" style="display:none;">
+                <tr>
+                    <th>Type</th>
+                    <td id="pokemon-type"></td>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <td id="pokemon-height"></td>
+                </tr>
+                <tr>
+                    <th>Weight</th>
+                    <td id="pokemon-weight"></td>
+                </tr>
+            </table>
+        </section>
+        <section id="feedback-section">
+            <button id="cool-button" class="feedback-button">Крутой</button>
+            <button id="tacky-button" class="feedback-button tacky">Так себе</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
